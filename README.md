@@ -7,10 +7,6 @@
 - [Overview](#overview)
 - [Database Schema](#database-schema)
 - [SQL Queries](#sql-queries)
-  - [Basic SELECT Queries](#basic-select-queries)
-  - [JOIN Queries](#join-queries)
-  - [Aggregate Functions](#aggregate-functions)
-  - [WHERE Clause Examples](#where-clause-examples)
 - [Sample Data](#sample-data)
 - [How to Use](#how-to-use)
 
