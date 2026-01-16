@@ -186,8 +186,6 @@ AND gb.status = 'active';
 | Mechanical Keyboard | 30.00 | 2 | 60.00 |
 | Desk Organizer | 8.00 | 1 | 8.00 |
 
-> ```
-
 ## Sample Data
 
 ```sql
