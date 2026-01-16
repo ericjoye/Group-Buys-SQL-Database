@@ -186,9 +186,6 @@ AND gb.status = 'active';
 | Mechanical Keyboard | 30.00 | 2 | 60.00 |
 | Desk Organizer | 8.00 | 1 | 8.00 |
 
-> **Note:** To add your own screenshots, create a `screenshots/` folder and add images like:
-> ```markdown
-> ![Query Results](screenshots/query_results.png)
 > ```
 
 ## Sample Data
