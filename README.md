@@ -7,6 +7,11 @@
 - [Overview](#overview)
 - [Database Schema](#database-schema)
 - [SQL Queries](#sql-queries)
+  - [Basic SELECT Queries](#basic-select-queries)
+  - [JOIN Queries](#join-queries)
+  - [Aggregate Functions](#aggregate-functions)
+  - [WHERE Clause Examples](#where-clause-examples)
+- [Query Results](#query-results)
 - [Sample Data](#sample-data)
 - [How to Use](#how-to-use)
 
@@ -162,6 +167,33 @@ JOIN products p ON gb.product_id = p.product_id
 WHERE p.category = 'Electronics'
 AND gb.status = 'active';
 ```
+
+## Query Results
+
+### Sample Output: Count Participants in Each Group Buy
+
+| group_buy_id | product_name | participant_count |
+|--------------|--------------|-------------------|
+| 1 | Wireless Mouse | 3 |
+| 2 | USB Cable Pack | 2 |
+| 3 | Notebook Set | 1 |
+| 4 | Mechanical Keyboard | 2 |
+| 5 | Desk Organizer | 1 |
+
+### Sample Output: Calculate Total Savings
+
+| product_name | savings_per_person | participants | total_savings |
+|--------------|-------------------|--------------|---------------|
+| Wireless Mouse | 10.00 | 3 | 30.00 |
+| USB Cable Pack | 6.00 | 2 | 12.00 |
+| Notebook Set | 4.00 | 1 | 4.00 |
+| Mechanical Keyboard | 30.00 | 2 | 60.00 |
+| Desk Organizer | 8.00 | 1 | 8.00 |
+
+> **Note:** To add your own screenshots, create a `screenshots/` folder and add images like:
+> ```markdown
+> ![Query Results](screenshots/query_results.png)
+> ```
 
 ## Sample Data
 
